@@ -107,8 +107,8 @@ str_dict = {'num_apples': "three", 'num_peaches': "five"}
 print(f"Anna has {str_dict['num_apples']} apples and {str_dict['num_peaches']} peaches.")
 
 print("11.2.    Using dict for strings and %:")
-str_dict = {'num_apples': "three", 'num_peaches': "five"}
-print("Anna has %s apples and %s peaches." % (num_apples, num_peaches))
+str_dict = {'num_apples': "seven", 'num_peaches': "eight"}
+print("Anna has %(num_apples)s apples and %(num_peaches)s peaches." % str_dict)
 
 ##################################################
 
