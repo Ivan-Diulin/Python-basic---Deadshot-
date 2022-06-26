@@ -91,16 +91,24 @@ print(f"Anna has {num_apples} apples and {num_peaches} peaches.")
 ##################################################
 
 # 10. With % operator
-print("10.")
+print("10.1.    Using % operators for every string:")
 num_apples = "three"
 print("Anna has %s apples" % num_apples + " and %s peaches." % num_peaches)
+
+print("10.2.    Using % operator once with tuple for strings:")
+num_apples = "three"
+print("Anna has %s apples and %s peaches." % (num_apples, num_peaches))
 
 ##################################################
 
 # 11*. With variable substitutions by name (hint: by using dict)
-print("11.")
+print("11.1.    Using dict for strings and f-string:")
 str_dict = {'num_apples': "three", 'num_peaches': "five"}
 print(f"Anna has {str_dict['num_apples']} apples and {str_dict['num_peaches']} peaches.")
+
+print("11.2.    Using dict for strings and %:")
+str_dict = {'num_apples': "three", 'num_peaches': "five"}
+print("Anna has %s apples and %s peaches." % (num_apples, num_peaches))
 
 ##################################################
 
