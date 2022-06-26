@@ -1,12 +1,12 @@
 /usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/advanced_data_types/HW3.py
 1.
-ID of 'int_a': 140187030194096
-ID of 'str_b': 140187029053552
-ID of 'set_c': 140187029217440
-ID of 'lst_d': 140187029005952
-ID of 'dict_e': 140187029006144
+ID of 'int_a': 139649249380272
+ID of 'str_b': 139649248256176
+ID of 'set_c': 139649248420000
+ID of 'lst_d': 139649250097920
+ID of 'dict_e': 139649248208704
 2.
-ID of 'lst_d' after 2 appends: 140187029005952
+ID of 'lst_d' after 2 appends: 139649250097920
 3.
 Type of 'int_a': <class 'int'>
 Type of 'str_b': <class 'str'>
@@ -36,7 +36,7 @@ Anna has three apples and five peaches.
 11.1.    Using dict for strings and f-string:
 Anna has three apples and five peaches.
 11.2.    Using dict for strings and %:
-Anna has three apples and five peaches.
+Anna has seven apples and eight peaches.
 12.
 List (1) without comprehension:
  [0, 1, 16, 9, 256, 25, 1296, 49, 4096, 81]
