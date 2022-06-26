@@ -1,12 +1,12 @@
-﻿/usr/bin/python3.10 /home/ivn/cursor-py/HW3/HW3.py
+/usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/advanced_data_types/HW3.py
 1.
-ID of 'int_a': 139876197877680
-ID of 'str_b': 139876196737136
-ID of 'set_c': 139876196901024
-ID of 'lst_d': 139876196689280
-ID of 'dict_e': 139876196689728
+ID of 'int_a': 140187030194096
+ID of 'str_b': 140187029053552
+ID of 'set_c': 140187029217440
+ID of 'lst_d': 140187029005952
+ID of 'dict_e': 140187029006144
 2.
-ID of 'lst_d' after 2 appends: 139876196689280
+ID of 'lst_d' after 2 appends: 140187029005952
 3.
 Type of 'int_a': <class 'int'>
 Type of 'str_b': <class 'str'>
@@ -29,9 +29,13 @@ Anna has three apples and five peaches.
 Anna has     5 apples and   3 peaches.
 9.
 Anna has 3 apples and five peaches.
-10.
+10.1.    Using % operators for every string:
 Anna has three apples and five peaches.
-11.
+10.2.    Using % operator once with tuple for strings:
+Anna has three apples and five peaches.
+11.1.    Using dict for strings and f-string:
+Anna has three apples and five peaches.
+11.2.    Using dict for strings and %:
 Anna has three apples and five peaches.
 12.
 List (1) without comprehension:
@@ -100,3 +104,4 @@ Using the filter function finding common values in two lists:
  [1, 2, 3, 5, 7, 9] ∩ [2, 3, 5, 6, 7, 8] = [2, 3, 5, 7]
 
 Process finished with exit code 0
+
