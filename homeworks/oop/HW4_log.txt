@@ -1,0 +1,32 @@
+/usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/oop/HW4.py
+1.
+Price of the trip with passenger capacity 50 is 5000.
+4.1.
+Is the 'car_1' object an instance of the 'Car' class?
+Answer - True
+4.2.
+Is the 'car_2' object an instance of the 'Vehicle' class?
+Answer - True
+4.3.
+Is the 'bus_1' object an instance of the 'Car' class?
+Answer - False
+4.4.
+Is the 'bus_1' object an instance of the 'Vehicle' class?
+Answer - True
+5.1.
+If passenger capacity of bus_1 is 50 then total fare including 10% added will be 5500
+5.2.
+If passenger capacity of car_1 is 50 then total fare will be 5000
+7.1.
+The length of bus_1 with total of 50 passengers is 5 m.
+The length of bus_2 with total of 200 passengers is 20 m.
+7.2.
+The bus_1 with total of 50 passengers is True bus.
+The bus_2 with total of 200 passengers is False bus.
+8.
+The volume of a 4-cylinder engine with cylinder radius 3 and cylinder height 5 is: V = 565.
+10.
+The inheritance order of the Car class:
+ [<class '__main__.Car'>, <class '__main__.Vehicle'>, <class '__main__.Engine'>, <class 'object'>].
+
+Process finished with exit code 0
