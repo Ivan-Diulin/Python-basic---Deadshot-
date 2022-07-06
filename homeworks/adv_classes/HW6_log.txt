@@ -1,0 +1,63 @@
+﻿/usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/adv_classes/HW6.py
+1.
+Laptop has 10 batteries with total capacity of 30000 mAh.
+3.
+Calling static method from class itself without object creation for adding three numbers:
+ 1 + 4 + 10 = 15.
+4.
+Creating objects of class Pasta with different sets of ingredients:
+The user-defined ingredients of pasta_1 object:
+ ['tomato', 'cucumber']
+The pre-defined ingredients of carbonara recipe for pasta_2 object:
+ ['forcemeat', 'tomatoes']
+The pre-defined ingredients of bolognaise recipe for pasta_3 object:
+ ['bacon', 'parmesan', 'eggs']
+5.
+Creating objects of class Concert with with check of attribute visitors_count:
+With concert_1 = Concert(35), concert_1.visitors_count= 35
+With concert_2 = Concert(10000), concert_2.visitors_count= 50
+With concert_3 = Concert(50), concert_3.visitors_count= 50
+6.
+Printing person's data from object of dataclass type:
+ Database 'key' field: 1 Hi, my name is John Stewart, you can call me at +10987654321
+ or send me a letter to 2800 Pennsylvania Avenue Northwest Washington, D.C., US,
+ or e-mail me at john.stewart.email@yahoo.com.
+ I was born on 25.01.1975 thus I am 47 years old now.
+person_1 =  AddressBookDataClass(key=1, name='John Stewart', phone_number='+10987654321', address='2800 Pennsylvania Avenue Northwest Washington, D.C., US', email='john.stewart.email@yahoo.com', birthday='25.01.1975', age=47)
+7.1.
+Printing person's data from named tuple object 'address_book':
+ key = 2
+ name = Fill Pitkins
+ phone_number = +443332355505
+ address = 12 Kingston Rd, Tolworth, Chessington, Surbiton KT5 9NU, GB
+ email = fill.pitkins.email@proton.me
+ birthday = 15.02.1980
+ age = 42
+7.2.
+Printing named tuple 'address_book_1', created from dict and tuple:
+ key = 3
+ name = Samantha Pitkins
+ phone_number = +443332377707
+ address = 374 Seven Sisters Rd, Finsbury Park, London N4 2PG
+ email = sam.pitkins.the.best@proton.me
+ birthday = 18.08.1980
+ age = 41
+Named tuple from 'address_book_1' representation without unpacking:
+ AddressBookNamedTuple1(key=3, name='Samantha Pitkins', phone_number='+443332377707', address='374 Seven Sisters Rd, Finsbury Park, London N4 2PG', email='sam.pitkins.the.best@proton.me', birthday='18.08.1980', age=41)
+8.
+Object of regular class AddressBook with changed str() representation:
+AddressBook(key='4', name='Agatha Kelly', phone_number='+16477654321', address='550 Wellington St W, Toronto, ON, M5V2V4, Canada', email='agatha.kelly.artdealer@proton.me', birthday= '18.08.1990', age='31')
+9.
+Changing value of the age property of the Person object:
+  Creating John object with attributes:
+    Name = John, age = 36, country = USA.
+  Changing value of the age property of John object:
+    Name = John, age = 29, country = USA.
+10.
+ Student's data:
+id = 0, name = Orest, email = new.orest12@gmail.com
+ New variable student_email = new.orest12@gmail.com
+11.
+Converting Celsius to Fahrenheit: 25ºC = 77.0ºF
+
+Process finished with exit code 0
