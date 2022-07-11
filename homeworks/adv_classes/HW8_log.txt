@@ -1,0 +1,49 @@
+﻿/usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/adv_classes/HW8.py
+1. Printing first 11 Fibonacci numbers via class iterator and for cycle:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+
+2. Printing first 11 Fibonacci numbers via generator and for cycle:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+
+3. Printing square numbers of integers from 0 to 10 via generator and for cycle:
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+
+4.1. Printing the accumulation of arithmetic mean via coroutine.
+Transferred number sequence: 2, 8, 2, 4.
+Results: 2, 5, 4, 4
+
+4.2. Printing the accumulation of arithmetic mean via coroutine + cycles.
+Transferred number sequence:  [2, 8, 2, 4, 6, 15, 100, 47] 
+Results: 2  5  4  4  5  10  55  51  
+
+Process finished with exit code 0
