@@ -26,6 +26,8 @@ class open_file_logging:
             log_file.write(msg)
 
 
+print('1. File sample_0.txt:')
+
 with open_file_logging('sample_0.txt', 'w+') as f:
     f.write('1 line\n')
     f.write('2 line\n')
@@ -35,6 +37,11 @@ with open_file_logging('sample_0.txt', 'w+') as f:
     f.seek(0)
     print(f.read())
     time.sleep(1)
+
+print('File logs.txt:')
+
+with open('logs.txt', 'r') as f1:
+    print(f1.read())
 
 
 # 2
@@ -58,6 +65,8 @@ def log_to_csv(log_file_name: str, csv_file_name: str):
         print(csv_file.read())
 
 
+print('2. File logs.csv converted from logs.txt:')
+
 log_to_csv('logs.txt', 'logs.csv')
 
 
@@ -69,19 +78,12 @@ def json_from_csv(csv_file_name: str):
         'last_time_opened': ''
     }
 
-    count = 0
-    last_time_opened = ''
-
     with open(csv_file_name, 'r') as csv_file:
         reader = csv.reader(csv_file, delimiter=',')
         for line in reader:
             if line[2] == ' Open':
                 file_open_info['count'] += 1
                 file_open_info['last_time_opened'] = line[0]
-
-            print(line, type(line))
-
-        print(count, last_time_opened)
 
         file_open_dict = {'sample_0.txt': file_open_info}
 
@@ -90,3 +92,8 @@ def json_from_csv(csv_file_name: str):
 
 
 json_from_csv('logs.csv')
+
+print('3. File open_log.json with data gathered from logs.csv:')
+
+with open('open_log.json', 'r') as file:
+    print(json.load(file))
