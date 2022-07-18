@@ -1,9 +1,12 @@
+# HW11 - Context Manager
+
 from datetime import datetime
 import time
 import csv
 import json
 
 
+# 1
 class open_file_logging:
     def __init__(self, file_name, mode):
         self.file_name = file_name
@@ -34,6 +37,7 @@ with open_file_logging('sample_0.txt', 'w+') as f:
     time.sleep(1)
 
 
+# 2
 def log_to_csv(log_file_name: str, csv_file_name: str):
 
     with open(csv_file_name, 'w') as csv_file:
@@ -57,6 +61,7 @@ def log_to_csv(log_file_name: str, csv_file_name: str):
 log_to_csv('logs.txt', 'logs.csv')
 
 
+# 3
 def json_from_csv(csv_file_name: str):
 
     file_open_info = {
@@ -85,37 +90,3 @@ def json_from_csv(csv_file_name: str):
 
 
 json_from_csv('logs.csv')
-
-
-
-# TASK 1
-# Створити логер який дозволяє працювати з файлами як звичайний open,
-# але разом з тим в файл logs.txt записує:
-# коли був відкритий файл, назва файла, коли закритий файл
-# для інформації про час можемо використати datetime.now()
-# приклад відпрацювання
-# with my_custom_manager('file.txt', 'r') as f:
-#     f.read()
-# В файл буде записано
-# 2022-07-11 22:17:59.782551 file.txt OPEN
-# 2022-07-11 22:18:00.782551 file.txt CLOSE
-
-# TASK 2
-# Написати ф-цію яка переводить файл logs.txt в logs.csv
-# Приклад такого файлу
-# 2022-07-11 22:17:59.782551, file.txt, OPEN
-# 2022-07-11 22:18:00.782551, file.txt, CLOSE
-
-# TASK 3 (з зірочкою)
-# Написати ф-цію, яка обраховує з файла logs.csv скільки раз був відкритий файл і його остання дата відкриття.
-# Цю інформацію записати в logs.json. Приклад:
-# {
-#     "file.txt": {
-#         "count": 2,
-#         "last_time_opened": "2022-07-11 22:17:59.782551"
-#     }
-# }
-
-
-# P.S. Якщо щось не зрозуміло по умові задачі, то робіть як вважаєте за доцільно,
-# користуючись здоровим глуздом звичайно ж)
