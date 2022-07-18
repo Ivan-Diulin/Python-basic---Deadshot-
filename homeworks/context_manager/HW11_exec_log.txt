@@ -1,0 +1,37 @@
+/usr/bin/python3.10 /home/ivn/cursor-py/Python-basic---Deadshot-/homeworks/context_manager/HW11.py
+1. File sample_0.txt:
+1 line
+2 line
+3 line
+4 line
+5 line
+
+File logs.txt:
+2022-07-19 00:13:39.871162 sample_0.txt Open
+2022-07-19 00:13:40.877361 sample_0.txt Close
+2022-07-19 00:13:42.978815 sample_0.txt Open
+2022-07-19 00:13:43.982886 sample_0.txt Close
+2022-07-19 00:13:45.989007 sample_0.txt Open
+2022-07-19 00:13:46.993574 sample_0.txt Close
+2022-07-19 00:13:49.370030 sample_0.txt Open
+2022-07-19 00:13:50.375439 sample_0.txt Close
+2022-07-19 00:13:52.282787 sample_0.txt Open
+2022-07-19 00:13:53.291991 sample_0.txt Close
+
+2. File logs.csv converted from logs.txt:
+2022-07-19 00:13:39.871162, sample_0.txt, Open
+2022-07-19 00:13:40.877361, sample_0.txt, Close
+2022-07-19 00:13:42.978815, sample_0.txt, Open
+2022-07-19 00:13:43.982886, sample_0.txt, Close
+2022-07-19 00:13:45.989007, sample_0.txt, Open
+2022-07-19 00:13:46.993574, sample_0.txt, Close
+2022-07-19 00:13:49.370030, sample_0.txt, Open
+2022-07-19 00:13:50.375439, sample_0.txt, Close
+2022-07-19 00:13:52.282787, sample_0.txt, Open
+2022-07-19 00:13:53.291991, sample_0.txt, Close
+
+3. File open_log.json with data gathered from logs.csv:
+{'sample_0.txt': {'count': 5, 'last_time_opened': '2022-07-19 00:13:52.282787'}}
+
+Process finished with exit code 0
+
